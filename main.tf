@@ -1,17 +1,17 @@
-resource "null_resource" "helloWorld2" {
+resource "null_resource" "helloWorld5" {
   provisioner "local-exec" {
-    command = "echo hello world2"
+    command = "echo hello world5"
   }
 }
 
-resource "null_resource" "helloWorld3" {
+resource "null_resource" "helloWorld6" {
   provisioner "local-exec" {
-    command = "echo hello world3"
+    command = "echo hello world6"
   }
 }
 
-resource "null_resource" "helloWorld4" {
+resource "null_resource" "helloWorld7" {
   provisioner "local-exec" {
-    command = "echo hello world4"
+    command = "echo hello world7"
   }
 }
