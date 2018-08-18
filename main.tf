@@ -11,12 +11,12 @@ resource "github_repository" "example22" {
 
 # We use random_pet to generate a random name
 resource "random_pet" "random_repo11" {
-  length    = "4"
+  length    = "3"
   separator = "-"
 }
 
 resource "random_pet" "random_repo22" {
-  length    = "4"
+  length    = "3"
   separator = "-"
 }
 
